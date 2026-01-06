@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* ===== TITLE ===== */
+.page-title {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  padding: 22px 28px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.page-title h2 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.page-title p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* ===== TABLE CARD ===== */
+.table-card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== TABLE ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #f1f5f9;
+}
+
+th {
+  text-align: left;
+  padding: 14px;
+  font-size: 14px;
+  color: #334155;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+td {
+  padding: 14px;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: middle;
+}
+
+/* ===== INPUT ===== */
+td input[type="text"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+td input[type="text"]:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* ===== STATUS ===== */
+.status-done {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.status-pending {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* ===== UPLOAD BUTTON ===== */
+.upload-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  text-align: center;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.upload-btn:hover {
+  background: #1e40af;
+  transform: translateY(-1px);
+}
+
+/* ===== ROW HOVER ===== */
+tbody tr:hover {
+  background: #f8fafc;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  table {
+    font-size: 13px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  .page-title h2 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+.topbar {
+  background: #1e40af;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.container {
+  padding: 24px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.feedback-card {
+  background: white;
+  padding: 18px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.feedback-card h4 {
+  margin: 0 0 8px;
+  color: #1e40af;
+}
+
+.feedback-card .isi {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feedback-card .meta {
+  font-size: 12px;
+  color: #6b7280;
+}

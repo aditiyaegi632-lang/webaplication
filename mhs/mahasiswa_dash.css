@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f8fafc;
+  color: #1f2937;
+}
+
+/* ===== Topbar ===== */
+.topbar {
+  background: #2563eb;
+  color: white;
+  padding: 16px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar a {
+  color: #dbeafe;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.topbar a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Welcome ===== */
+.welcome {
+  padding: 28px;
+  background: #eff6ff;
+  border-bottom: 1px solid #dbeafe;
+}
+
+.welcome h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #1e3a8a;
+}
+
+.welcome p {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #475569;
+}
+
+/* ===== Content ===== */
+.container {
+  padding: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+/* ===== Matkul Card ===== */
+.matkul {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 10px 24px rgba(37,99,235,0.12);
+}
+
+.matkul-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.matkul-header h4 {
+  margin: 0;
+  font-size: 15px;
+  color: #1e3a8a;
+}
+
+.matkul-header span {
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* ===== Progress ===== */
+.progress {
+  margin: 16px 0 6px;
+  height: 6px;
+  background: #e0e7ff;
+  border-radius: 6px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 6px;
+}
+
+.info {
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* ===== Link ===== */
+.matkul a {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 13px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.matkul a:hover {
+  text-decoration: underline;
+}

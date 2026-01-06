@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f0f4f9; /* biru muda lembut */
+  color: #1f2937;
+}
+
+/* ===== Header ===== */
+header {
+  background: #1e3a8a; /* biru utama */
+  padding: 20px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+header p {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #dbeafe;
+}
+
+.logout {
+  font-size: 13px;
+  text-decoration: none;
+  color: #dbeafe;
+}
+
+.logout:hover {
+  text-decoration: underline;
+}
+
+/* ===== Main ===== */
+main {
+  padding: 32px;
+}
+
+main h3 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+/* ===== Card Grid ===== */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+/* ===== Card ===== */
+.card {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(30,58,138,0.12);
+  border-top: 4px solid #3b82f6; /* aksen biru */
+}
+
+.card h4 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #475569;
+}
+
+/* ===== Progress ===== */
+.progress {
+  margin: 14px 0 6px;
+  height: 6px;
+  background: #e0e7ff;
+  border-radius: 6px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #2563eb;
+  border-radius: 6px;
+}
+
+.progress-text {
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* ===== Link ===== */
+.card a {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 13px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
